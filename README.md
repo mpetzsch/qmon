@@ -2,12 +2,6 @@ qmon
 ====
 a framework for monitoring q processes, focussed on tick and real-time data monitoring
 
-### .mon.proc
-functions to run on remote processes for process level monitoring
-
-```.mon.proc.memLimit```
-- check distance from wslimit
-
 ###.mon.tp
 functions to handle incoming ticks and monitor realtime feeds via the tickerplant
 ```.mon.tp.tableTick```
@@ -42,3 +36,9 @@ check sym variable is present and correct
 check date variable is present and correct
 ###.mon.hdb.attrs
 check table attributes are present and correct
+
+### .mon.proc
+functions to run on remote processes for process level monitoring
+
+```.mon.proc.memLimit```
+- check distance from wslimit
