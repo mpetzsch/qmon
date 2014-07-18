@@ -5,21 +5,21 @@ a framework for monitoring q processes, focussed on tick and real-time data moni
 ### .mon.proc
 functions to run on remote processes for process level monitoring
 
-- .mon.proc.memLimit
-check % distance from wslimit
+```.mon.proc.memLimit```
+- check % distance from wslimit
 
 ###.mon.tp
 functions to handle incoming ticks and monitor realtime feeds via the tickerplant
-- .mon.tp.tableTick
-check last tick time for a table
-###.mon.tp.tableSymTick
-check last tick time for a sym on a table
-###.mon.tp.tableLatency
-check max latency on a table
-###.mon.tp.tableSymLatency
-check max latency on a sym on a table
-###.mon.tp.outputQueue
-check output queue depth
+```.mon.tp.tableTick```
+- check last tick time for a table
+```.mon.tp.tableSymTick```
+- check last tick time for a sym on a table
+```.mon.tp.tableLatency```
+- check max latency on a table
+```.mon.tp.tableSymLatency```
+- check max latency on a sym on a table
+```.mon.tp.outputQueue```
+- check output queue depth
 
 #.mon.rdb
 rdb specific monitoring
