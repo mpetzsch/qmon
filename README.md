@@ -6,7 +6,7 @@ a framework for monitoring q processes, focussed on tick and real-time data moni
 functions to run on remote processes for process level monitoring
 
 ```.mon.proc.memLimit```
-- check % distance from wslimit
+- check distance from wslimit
 
 ###.mon.tp
 functions to handle incoming ticks and monitor realtime feeds via the tickerplant
